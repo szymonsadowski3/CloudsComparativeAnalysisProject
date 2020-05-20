@@ -1,0 +1,26 @@
+Database VM:
+
+vCPU	ECU	    Memory (GiB)	VPC Only	EBS Optimized	Max. Bandwidth (Mbps)	Network Performance Storage
+2	    6.5	    8	            Yes	        Yes	            450	                    Moderate            50GB
+
+
+Backend VM:
+
+vCPUs 4
+Memory (GiB) 16.0
+Network burst bandwidth (Gbps) 5
+EBS burst bandwidth (Mbps) Up to 2,780
+
+
+
+Data Storage:
+
+10Gb
+10000 PUT
+1000000 GET
+0.01GB data returned
+
+
+Logging:
+
+2GB of logs ingested

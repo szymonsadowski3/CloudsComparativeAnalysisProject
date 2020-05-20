@@ -1,0 +1,52 @@
+{
+	allProducts {
+    nodes {
+      nodeId
+      id
+      name
+      description
+      currentPrice
+      illustrativeMediaUrl
+      createdAt
+      tags
+      brand
+      orderproductsByProductId {
+        edges {
+          node {
+            nodeId
+            id
+            orderId
+            productId
+            quantity
+            singlePrice
+            orderByOrderId {
+              nodeId
+              id
+              userId
+              status
+              shippingAddress
+              createdAt
+              updatedAt
+              userByUserId {
+                id
+                username
+                avatarUrl
+              }
+            }
+          }
+        }
+      }
+      productratingsByProductId {
+        edges {
+          node {
+            nodeId
+            id
+            productId
+            ratingId
+          }
+        }
+      }
+
+    }
+  }
+}

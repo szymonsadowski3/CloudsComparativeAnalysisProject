@@ -1,0 +1,9 @@
+{
+  allProducts(filter: {currentPrice: {greaterThan: "10", lessThan: "20"}}) {
+    edges {
+      node {
+        currentPrice
+      }
+    }
+  }
+}

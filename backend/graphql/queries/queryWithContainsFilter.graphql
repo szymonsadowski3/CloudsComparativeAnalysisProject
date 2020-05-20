@@ -1,0 +1,10 @@
+{
+  allProducts(filter: {tags: {contains: ["Group", "Inc", "and Sons"]}}) {
+    edges {
+      node {
+        id
+        tags
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+    allUsers(filter: {username: {equalTo: "Theresa Stark"}}) {
+    edges {
+        node {
+            id
+            ordersByUserId {
+                edges {
+                    node {
+                        id
+                        status
+                        shippingAddress
+                        orderproductsByOrderId {
+                            edges {
+                                node {
+                                    id
+                                    quantity
+                                    singlePrice
+                                    createdAt
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}

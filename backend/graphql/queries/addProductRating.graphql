@@ -1,0 +1,11 @@
+mutation {
+  createProductrating(
+    input:{ productrating: {productId: 3, ratingId: 14} }
+  ) {
+     productrating {
+      id
+      productId
+      ratingId
+    }
+  }
+}

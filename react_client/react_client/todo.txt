@@ -1,0 +1,4 @@
+- finish checking if user can rate/comment
+- adding data / admin panel
+- tag pages with descriptions
+- placing orders

@@ -1,0 +1,13 @@
+mutation {
+  createRating(
+    input:{ rating: { rating: 4, ratedById: 1, comment: "Super!", createdAt: "now" } }
+  ) {
+     rating {
+      id
+      nodeId
+      rating
+      ratedById
+      comment
+  	}
+  }
+}

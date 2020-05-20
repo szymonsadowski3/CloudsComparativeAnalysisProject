@@ -1,0 +1,9 @@
+mutation {
+  deleteProductById(
+    input: {id:1}
+  ) {
+    product {
+      id
+    }
+  }
+}

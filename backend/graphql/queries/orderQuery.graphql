@@ -1,0 +1,33 @@
+mutation {
+  createOrder(
+    input: {
+        order: {
+          status: "awaiting_payment"
+        	shippingAddress: "kamienica 607"
+          createdAt: "now"
+          updatedAt: "now"
+          userToUserId: {
+            connectById: {id: 1}
+          }
+          orderproductsUsingId: {
+            create: [
+              {
+                productId: 4
+                quantity: 1
+                singlePrice: "10"
+              },
+              {
+                productId: 5
+                quantity: 1
+                singlePrice: "10"
+              }
+            ]
+          }
+        }
+    }
+  ) {
+    order {
+      id
+    }
+  }
+}

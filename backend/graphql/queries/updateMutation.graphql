@@ -1,0 +1,11 @@
+mutation {
+  updateProductById(
+    input: {id:1, productPatch: {name: "kepucz"}}
+  ) {
+    product {
+      id
+      name
+      description
+    }
+  }
+}

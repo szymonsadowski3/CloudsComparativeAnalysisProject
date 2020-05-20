@@ -1,0 +1,25 @@
+{
+  "user": {
+    "username": "ez",
+    "pool": {
+      "userPoolId": "eu-central-1_hqpV75MqA",
+      "clientId": "42jn89o5gm0pjeo13buvsn0q61",
+      "client": {
+        "endpoint": "https://cognito-idp.eu-central-1.amazonaws.com/",
+        "userAgent": "aws-amplify/0.1.x js"
+      },
+      "advancedSecurityDataCollectionFlag": true
+    },
+    "Session": null,
+    "client": {
+      "endpoint": "https://cognito-idp.eu-central-1.amazonaws.com/",
+      "userAgent": "aws-amplify/0.1.x js"
+    },
+    "signInUserSession": null,
+    "authenticationFlowType": "USER_SRP_AUTH",
+    "keyPrefix": "CognitoIdentityServiceProvider.42jn89o5gm0pjeo13buvsn0q61",
+    "userDataKey": "CognitoIdentityServiceProvider.42jn89o5gm0pjeo13buvsn0q61.ez.userData"
+  },
+  "userConfirmed": false,
+  "userSub": "6a325af4-c44b-498e-8691-a98414b5dd5a"
+}

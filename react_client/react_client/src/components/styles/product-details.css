@@ -1,0 +1,22 @@
+.product-rating {
+    margin-left: 1rem;
+}
+
+.product-rating-text {
+    margin-left: .5rem;
+}
+
+.label {
+    font-weight: 500;
+}
+
+.price-section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 20px;
+}
+
+.tags-label {
+    margin-right: .5rem;
+}
+

@@ -1,0 +1,3 @@
+POST http://34.89.150.243:3001/graphql
+Content-Type: application/json
+@targetBody.json

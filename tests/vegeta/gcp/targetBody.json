@@ -1,0 +1,1 @@
+{"query":"{ allProducts(first:5) { edges { node { id name description currentPrice illustrativeMediaUrl createdAt tags } } } }","variables":null}

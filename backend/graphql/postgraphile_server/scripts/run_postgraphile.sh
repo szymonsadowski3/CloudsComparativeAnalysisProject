@@ -1,0 +1,1 @@
+postgraphile --cors -c postgres://postgres:admin@localhost:5432/postgres

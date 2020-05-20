@@ -1,0 +1,9 @@
+{
+  allProducts(orderBy: [CURRENT_PRICE_DESC]) {
+    edges {
+      node {
+        currentPrice
+      }
+    }
+  }
+}

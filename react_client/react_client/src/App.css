@@ -1,0 +1,135 @@
+@import '~antd/dist/antd.css';
+
+.ant-card {
+  display: inline-block;
+}
+
+.ant-carousel {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 400px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.filter-entry {
+  border-right: 1px solid #b0b0b0;
+  margin-right: .5rem;
+  padding-right: .5rem;
+  font-size: 12px;
+}
+
+.applied-filters-section {
+  padding-bottom: .3rem;
+  margin-bottom: .3rem;
+}
+
+.applied-filters-label {
+  margin-right: .4rem;
+}
+
+.applied-filters-section {
+  background-color: #f4f4f4;
+  padding: .4rem;
+  box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.21);
+}
+
+
+
+
+.ant-table {
+  display: block;
+}
+@media screen and (max-width: 600px) {
+  .ant-table-thead {
+    display: none;
+  }
+  .ant-table-thead > tr th:first-of-type,
+  .ant-table-tbody > tr th:first-of-type,
+  .ant-table-thead > tr td:first-of-type,
+  .ant-table-tbody > tr td:first-of-type {
+    padding-top: 1rem;
+  }
+  .ant-table-thead > tr th:last-of-type,
+  .ant-table-tbody > tr th:last-of-type,
+  .ant-table-thead > tr td:last-of-type,
+  .ant-table-tbody > tr td:last-of-type {
+    padding-bottom: 1rem;
+  }
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > th,
+  .ant-table-thead > tr > td,
+  .ant-table-tbody > tr > td {
+    display: block;
+    width: auto !important;
+    border: none;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+  }
+  .ant-table-thead > tr > th:last-child,
+  .ant-table-tbody > tr > th:last-child,
+  .ant-table-thead > tr > td:last-child,
+  .ant-table-tbody > tr > td:last-child {
+    border-bottom: 1px solid #eee;
+  }
+}
+
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+  padding: 16px 16px;
+  word-break: break-word;
+}
+
+@media (min-width: 768px) {
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > td {
+    padding: 16px 16px;
+  }
+}
+
+
+
+.checkout-button {
+  margin-right: .7rem;
+}
+
+.add-to-cart-button {
+  margin-bottom: .5rem;
+}
+
+.pull-right {
+  float: right;
+}
+
+.user-dropdown a {
+  color: white;
+}
+
+.user-dropdown {
+  margin-left: 1rem;
+}

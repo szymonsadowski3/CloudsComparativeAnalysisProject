@@ -1,0 +1,17 @@
+mutation {
+  createProduct(
+    input:{ product: {
+      name: "jakis"
+      description: "some"
+      currentPrice: "10"
+      illustrativeMediaUrl: "abc"
+      createdAt: "now"
+      tags: "tag1,tag2"
+      brand: "other"
+    } }
+  ) {
+     product {
+      id
+    }
+  }
+}
